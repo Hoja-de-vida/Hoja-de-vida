@@ -1,0 +1,16 @@
+/* Selector por etiqueta */
+p {
+  color: white;
+}
+
+/* Selector por clase */
+.content {
+  background-color: black;
+}
+
+/* Selector por identificador */
+#main-title {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}

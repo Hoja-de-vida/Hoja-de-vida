@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+  }
+  
+  body {
+    font-family: "Roboto Regular", sans-serif;
+  }
+  @font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/Roboto-Light.ttf");
+  }
+  
+  body {
+    font-family: "Roboto Regular", sans-serif;
+  }
+  
+  h1 {
+    font-family: "Roboto Bold", sans-serif;
+  }
+  
+  h2 {
+    font-family: "Roboto Light", sans-serif;
+  }
+  @font-face {
+    font-weight: 400; /* Equivale a normal */
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+  }
+  
+  @font-face {
+    font-weight: 700; /* Equivale a bold */
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.ttf");
+  }
+  
+  @font-face {
+    font-weight: 300;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Light.ttf");
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-weight: 300;
+  }
+  
+  @font-face {
+    /*
+      Esto dará un error
+      y la fuente no se cargará
+    */
+    font-family: Roboto, sans-serif;
+  }
