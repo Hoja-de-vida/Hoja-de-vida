@@ -1,0 +1,82 @@
+/* style.css */
+
+/* Estilo general */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+
+/* Títulos */
+h2 {
+    color: #e71818;
+    text-align: center;
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+h3 {
+    color: #333;
+    margin-top: 20px; /* Espacio arriba del título */
+}
+
+h4 {
+    color: #555;
+    margin: 15px 0; /* Espacio vertical */
+}
+
+/* Contenido */
+.content {
+    background-color: #f7dc6f;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px; /* Espacio interno */
+    margin: 20px 0;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #283747;
+    color: white;
+    padding: 12px; /* Espacio interno */
+    text-align: left;
+}
+
+td {
+    padding: 12px; /* Espacio interno */
+    border: 1px solid #3498db;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Espacio arriba y abajo */
+}
+
+/* Artículo */
+article {
+    margin: 20px 0;
+}
+
+
+/* Estilos de enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
